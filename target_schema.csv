@@ -1,0 +1,13 @@
+field_name,data_type,sample_value,description
+Id,STRING,0031x00000abcDE,Salesforce record ID (auto-generated, not mapped from source)
+FirstName,STRING,Ravi,Contact's first name
+LastName,STRING,Kumar,Contact's last name
+Phone,STRING,+91-9876543210,Primary phone number in E.164-style format
+Email,STRING,ravi@mail.com,Contact's email address
+MailingStreet,STRING,12 MG Road,Street address
+MailingCity,STRING,Bangalore,City
+MailingState,STRING,Karnataka,Full state name (not abbreviation)
+MailingPostalCode,STRING,560001,Postal/ZIP code
+CreatedDate,DATETIME,2021-02-15T00:00:00Z,Record creation timestamp
+LastModifiedDate,DATETIME,2024-01-20T00:00:00Z,Last modification timestamp
+IsActive,BOOLEAN,true,Whether the account is active

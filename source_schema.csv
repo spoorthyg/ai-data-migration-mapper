@@ -1,0 +1,12 @@
+field_name,data_type,sample_value,description
+CUST_ID,INTEGER,10234,Internal unique customer identifier
+CUST_NM,VARCHAR(100),Ravi Kumar,Full name of the customer entered as free text
+PH_NO,VARCHAR(15),9876543210,Primary contact phone number
+EMAIL_ADDR,VARCHAR(100),ravi@mail.com,Customer email address
+ADDR_LINE1,VARCHAR(200),12 MG Road,Street address line 1
+CITY_NM,VARCHAR(50),Bangalore,City name
+ST_CD,VARCHAR(2),KA,State code abbreviation
+PIN_CD,VARCHAR(10),560001,Postal/ZIP code
+CREATED_DT,DATE,2021-02-15,Date the customer record was created
+LAST_UPD_DT,DATE,2024-01-20,Date the record was last updated
+ACCT_STATUS,VARCHAR(10),ACTIVE,Account status flag (ACTIVE/INACTIVE)
